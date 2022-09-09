@@ -1,9 +1,9 @@
 # Some Basic Git and Github Commands
 
-# git init
+## git init
 to initialize git for a specific folder we need to go into the folder and initialize the git so it can monitor the changes in it. It initializes an empty repository
 
-# git status
+## git status
 -to see that status of our initialized repository. what files we have in our folder. which branch we are on, what is the status of untracked files , what we need to commit etc. give the information of current state of git repository
 
 # git checkout -b branchanme
