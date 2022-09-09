@@ -1,4 +1,4 @@
-#Some Basic Git and Github Commands
+# Some Basic Git and Github Commands
 
 # git init
 to initialize git for a specific folder we need to go into the folder and initialize the git so it can monitor the changes in it. It initializes an empty repository
