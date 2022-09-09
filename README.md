@@ -32,7 +32,7 @@ to initialize git for a specific folder we need to go into the folder and initia
 -to restore a deleted file
 
 # git checkout master
--to return to master branch from any other branch . i.e to untrack staged file
+-to return to master branch from any other branch.
 
 # git restore --staged filename
 -to remove file after stagging using git add..
