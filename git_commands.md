@@ -54,3 +54,9 @@ git add actually adds the untracked files to a stage and once we commit we can t
 
 #git remote -v
 -to show any remote repositories connect to our local repo
+
+#git diff branchname
+- to see the changes made in different branches
+
+#git push -u origin new_branch_here
+-to push code to a new branch
