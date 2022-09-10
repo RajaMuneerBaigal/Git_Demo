@@ -60,3 +60,15 @@ git add actually adds the untracked files to a stage and once we commit we can t
 
 #git push -u origin new_branch_here
 -to push code to a new branch
+
+#git config --global user.name "Name"
+-to configure git globally
+
+#git config --global user.email "Email"
+- to configure git globally
+
+#git config --list 
+- to see the list of globally configured git users on this computer
+
+#git config --help 0r git help config 
+- to know information about any commands here only config is used
