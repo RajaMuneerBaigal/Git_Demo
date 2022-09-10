@@ -48,3 +48,9 @@ git add actually adds the untracked files to a stage and once we commit we can t
 
 #git clone 
 -to copy a repository created in gihub and we want to clone it into our local system git clone is used
+
+#git remote add origin "Github link"
+-first create repository on github and instead of cloning we can add it using this method. this will link the our repository to remote repository and it will know where to push
+
+#git remote -v
+-to show any remote repositories connect to our local repo
