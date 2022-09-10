@@ -56,3 +56,21 @@ to initialize git for a specific folder we need to go into the folder and initia
 
 ### git remote add origin "link"
 - to connect our local repo to remote (Github, Gitlaab , Bitbucket)
+
+### git remote -v 
+-to show any remote repositories connect to our local repo
+
+### git push -u origin new_branch_here 
+-to push code to a new branch
+
+### git config --global user.name "Name" 
+-to configure git globally
+
+### git config --global user.email "Email"
+-to configure git globally
+
+### git config --list
+-to see the list of globally configured git users on this computer
+
+### git config --help 0r git help config
+-to know information about any commands here only config is used
