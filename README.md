@@ -19,7 +19,10 @@ to initialize git for a specific folder we need to go into the folder and initia
 -It list all the branches in our repo and also shows on which branch we are in with a * before our branch.
 
 ## git branch -d branchname
--to remove/delete a branch with specific branch name
+-to remove/delete a branch with specific branch name on our local repo.
+
+## git push origin --delete branchname
+-after deleting a branch from local repo we can reflect the changes in our remote server(github) by using above commands. this will delete the branch on github too.
 
 ## git add filename or git add .
 -"git add filename" adds a specific file to a stage. A stage is a step between tracked and untracked files. After we initialize a folder using git init git detects if any files are inside the directory. if we delete them before adding them git can't restore them. but if we add them and commit them then we can restore those files. "git add filename" adds a single file "git add ." add all the files inside our directory which can be risky if we want some files not to be tracked. git add actually adds the untracked files to a stage and once we commit we can track them properly. only adding them makes file recognizeable but not trackable. after commiting the files becomes trackeable.
@@ -29,6 +32,9 @@ to initialize git for a specific folder we need to go into the folder and initia
 
 ## git diff filename
 -shows the difference between past content in the file and current file if you have removed any lines or add new ones.
+
+## git diff branchname 
+-Shows the difference in files between current branch you are in and the branch you mentioned
 
 ## git restore filename 
 -to restore a deleted file
@@ -42,8 +48,11 @@ to initialize git for a specific folder we need to go into the folder and initia
 ## git log
 -to see the logs of git. what commits you made what changes you have done so on.
 
-## git pull
+## git pull "Repository_link"
 -to pull any file created in github and we want it onto our local system
 
-## git clone 
+## git clone "Repository_link"
 -to copy a repository created in gihub and we want to clone it into our local system git clone is used
+
+## git remote add origin "link"
+- to connect our local repo to remote (Github, Gitlaab , Bitbucket)
