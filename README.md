@@ -18,6 +18,7 @@ to initialize git for a specific folder we need to go into the folder and initia
 ### git push -u origin master 
 -to push code to a master branch. by default a master branch is initialized and created but we can create other branches tool.
 
+
 ## Git Branch Commands
 
 ### git checkout -b branchanme  or git branch new_branch_name
@@ -32,7 +33,7 @@ to initialize git for a specific folder we need to go into the folder and initia
 ### git ls-files
 -to see which files are in a current branch
 
-### git branch
+### git branch or git branch -av
 -It list all the branches in our repo and also shows on which branch we are in with a * before our branch.
 
 ### git branch -d branchname
@@ -40,6 +41,10 @@ to initialize git for a specific folder we need to go into the folder and initia
 
 ### git push origin --delete branchname
 -after deleting a branch from local repo we can reflect the changes in our remote server(github) by using above commands. this will delete the branch on github too.
+
+### git merge branch_name 
+- merges the current current content in branch_name to the current branch you are in .
+
 
 ## Git Diff Command
 
@@ -49,11 +54,12 @@ to initialize git for a specific folder we need to go into the folder and initia
 ### git diff branchname 
 -Shows the difference in files between current branch you are in and the branch you mentioned
 
+
+
 ## Git Restore Commands
 
 ### git restore filename 
 -to restore a deleted file
-
 
 ### git restore --staged filename
 -to remove file after stagging using git add..
@@ -63,6 +69,7 @@ to initialize git for a specific folder we need to go into the folder and initia
 
 ### git revert hashcode
 - to revert back to a previous commit. hashcode can be obtained by using git log command which will show commits with a code.
+
 
 ## GitHub Commands to link with local git
 
@@ -80,6 +87,8 @@ to initialize git for a specific folder we need to go into the folder and initia
 
 ### git push -u origin new_branch_here 
 -to push code to a new branch
+
+
 
 ## Git Configure Commands
 
