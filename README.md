@@ -103,3 +103,8 @@
 
 ### git config --help 0r git help config
 - to know information about any commands here only config is used
+
+### To revert any changes and go back to any commit 
+- git checkout commithash            : to go back to any commit without modifying anything
+- git revert commithash              : opens a editor to edit the past commit and add it as a new commit
+- git reset commithash --hard        : this will reset our commit to the commit we specifying and will delete all later commits from that commit has
